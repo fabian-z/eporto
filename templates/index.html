@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <title>Internetmarke NF Design</title>
+        <meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+
+body {
+	font-family: sans-serif;
+}
+
+input[type="text"] {
+	width: 26vw;
+}
+
+.short {
+	width: 10vw !important;
+
+}
+
+form {
+	width: 53vw;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+top: 3vh;
+}
+
+.inputgroup {
+    position: sticky;
+    left: 38vw;
+    display: inline-block;
+}
+
+label {
+	display: block;
+}
+
+#productinfo {
+	white-space: pre-wrap;
+	width: 48vw;
+	display: block;
+	margin-top: 2vh;
+	border: 1px dashed;
+	padding: 1vh;
+}
+
+input[type="submit"] {
+    margin-left: 5vw;
+}
+
+#cost {
+	display: inline-block;
+	margin-left: 9vw;
+	font-size: 1.25vw;
+}
+		</style>
+				<script>
+						function addEventHandler(elem, eventType, handler) {
+							if (elem.addEventListener)
+								elem.addEventListener (eventType, handler, false);
+							else if (elem.attachEvent)
+								elem.attachEvent ('on' + eventType, handler); 
+						}
+						
+						addEventHandler(document, 'DOMContentLoaded', function() {
+
+							e = document.getElementById('productselect');
+							document.getElementById('productinfo').innerHTML = e.options[e.selectedIndex].dataset.description;
+							document.getElementById('cost').innerHTML = e.options[e.selectedIndex].dataset.cost;
+
+
+							addEventHandler(document.getElementById('productselect'), 'change', function() {
+								e = this;
+								document.getElementById('productinfo').innerHTML = e.options[e.selectedIndex].dataset.description;
+								document.getElementById('cost').innerHTML = e.options[e.selectedIndex].dataset.cost;
+							});
+						});
+				</script>
+</head>
+<body>
+	
+		<form action="/" method="post">
+		<h3>Absender</h3>	
+		<label>Firma <input type="text"  class="inputgroup" name="SenderCompany" value="NF Design UG (haftungsbeschränkt)"></label><br>
+		<label>Name <input type="text"  class="inputgroup" name="SenderName"></label><br>
+		<label>Straße, Hausnummer <div class="inputgroup"><input type="text" name="SenderStreet" value="Schulstraße" required> <input type="text" class="short" name="SenderHouseNo" value="11a" required></div></label><br>
+		<label>PLZ, Stadt <div class="inputgroup"><input type="text" class="short" name="SenderZIP" value="78256" required> <input type="text" name="SenderCity" value="Steißlingen" required></div></label><br>
+
+		<h3>Empfänger</h3>	
+		<label>Firma <input type="text"  class="inputgroup" name="ReceiverCompany"></label><br>
+		<label>Name <input type="text"  class="inputgroup" name="ReceiverName"></label><br>
+		<label>Straße, Hausnummer <div class="inputgroup"><input type="text" name="ReceiverStreet" required> <input type="text" class="short"name="ReceiverHouseNo" required></div></label><br>
+		<label>PLZ, Stadt <div class="inputgroup"><input type="text" class="short" name="ReceiverZIP" required> <input type="text" name="ReceiverCity" required></div></label><br>
+		<label>Land <select class="inputgroup" name="ReceiverCountry">
+			{{ range $v := $.Countries }}
+			<option value="{{ $v.Code }}">{{ $v.Fullname }}</option>
+			{{ end }}
+		</select></label>
+
+		<h3> Produktauswahl </h3>
+
+		<select id="productselect" name="Product">
+			{{ range $v := $.Products }}
+			<option value="{{ $v.ProductId }}" data-cost="{{ centToEuro $v.Cost }} €" data-description="Bis {{ $v.MaxWeight }}g{{ newline 1 }}{{ $v.Description }}">{{ $v.Name }} – {{ centToEuro $v.Cost }} €{{ if $v.International }} – International{{ end }}</option> 
+			{{ end }}
+		</select>
+
+		{{ $first := index $.Products 0 }}
+		<div id="cost">{{ centToEuro $first.Cost }} €</div>
+		<div id="productinfo">Bis {{ $first.MaxWeight }}g{{ newline 1 }}{{ $first.Description }}</div>
+		
+		<br><br>
+		<div id="walletuser">Aktive Portokasse: '{{ $.WalletUser }}'</div><br>
+		<input type="reset" value="Zurücksetzen"><input type="submit" value="Drucken">
+		</form>
+
+</body>
+</html>

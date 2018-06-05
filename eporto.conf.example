@@ -1,0 +1,8 @@
+listener: :8080
+printer: DYMO_LabelWriter_450
+pageformat: 90
+partnerid: XXXXX
+keyphase: 1
+key: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+user: example@example.org
+password: XXXXXXXXX

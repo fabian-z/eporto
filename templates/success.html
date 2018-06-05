@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <title>Internetmarke NF Design</title>
+        <meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+input[type="text"] {
+	width: 26vw;
+}
+
+.short {
+	width: 10vw !important;
+
+}
+
+.inputgroup {
+    position: sticky;
+    left: 15vw;
+    display: inline-block;
+}
+
+label {
+	display: block;
+}
+
+
+#productinfo {
+	white-space: pre-wrap;
+	width: 48vw;
+	display: block;
+	margin-top: 2vh;
+	border: 1px dashed;
+	padding: 1vh;
+}
+
+input[type="submit"] {
+    margin-left: 5vw;
+}
+</style>
+
+</head>
+<body>
+	
+		<h2>Kauf {{ if $.PrintSuccess }}und Druck erfolgreich{{ else }}erfolgreich, Druck fehlgeschlagen{{ end }}</h3>
+
+		<h3>Restguthaben für Portokasse '{{ $.WalletUser }}': {{ centToEuro $.Balance }} €</h2>
+		
+		<a href="{{ $.Link }}">Download PDF</a><br><br>
+		Achtung - Keine Testmarken verwenden! - Keine Doppeleinlieferung!
+
+</body>
+</html>
