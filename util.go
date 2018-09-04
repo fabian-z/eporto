@@ -9,7 +9,7 @@ import (
 	"github.com/spf13/viper"
 )
 
-// round up
+// Round does configurable rounding of floating point values
 // https://gist.github.com/pelegm/c48cff315cd223f7cf7b
 func Round(val float64, roundOn float64, places int) (newVal float64) {
 	var round float64

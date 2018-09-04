@@ -307,7 +307,7 @@ func (h *Handler) buyAndPrintStamp(stamp *StampData) (int, string, error) {
 	cartResponse, err := h.service.CheckoutShoppingCartPDF(&epservice.CheckoutShoppingCartPDFRequest{
 		UserToken:    authResponse.UserToken,
 		PageFormatId: (*epservice.PageFormatId)(&pageFormat),
-		Positions: []*epservice.ShoppingCartPDFPosition{&epservice.ShoppingCartPDFPosition{
+		Positions: []*epservice.ShoppingCartPDFPosition{{
 			ShoppingCartPosition: &epservice.ShoppingCartPosition{
 				ProductCode: (*epservice.ProductCode)(&productCode),
 				Address: &epservice.AddressBinding{
