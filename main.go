@@ -2,9 +2,9 @@ package main
 
 import (
 	"bytes"
-	"eporto/epservice"
 	"errors"
 	"fmt"
+	"github.com/fabian-z/eporto/epservice"
 	"html/template"
 	"net/url"
 	"strings"
@@ -243,66 +243,7 @@ func (h *Handler) buyAndPrintStamp(stamp *StampData) (int, string, error) {
 	var total int32 = int32(product.Cost) //Only support one purchase at a time right now
 	var createManifest bool = false
 
-	// API demands both given and surname
-	// Name processing start
-	splitSenderName := strings.SplitN(stamp.SenderName, " ", 2)
-	splitReceiverName := strings.SplitN(stamp.ReceiverName, " ", 2)
-
-	var senderCompany, receiverCompany *epservice.CompanyName
-	var senderPerson, receiverPerson *epservice.PersonName
-
-	if stamp.SenderCompany != "" {
-		senderCompany = &epservice.CompanyName{
-			Company: stamp.SenderCompany,
-		}
-	}
-
-	if stamp.SenderName != "" {
-		var s *epservice.PersonName
-		if len(splitSenderName) < 2 {
-			s = &epservice.PersonName{
-				Firstname: " ",
-				Lastname:  splitSenderName[0],
-			}
-		} else {
-			s = &epservice.PersonName{
-				Firstname: splitSenderName[0],
-				Lastname:  splitSenderName[1],
-			}
-		}
-		if senderCompany != nil {
-			senderCompany.PersonName = s
-		} else {
-			senderPerson = s
-		}
-	}
-
-	if stamp.ReceiverCompany != "" {
-		receiverCompany = &epservice.CompanyName{
-			Company: stamp.ReceiverCompany,
-		}
-	}
-	if stamp.ReceiverName != "" {
-		var s *epservice.PersonName
-		if len(splitReceiverName) < 2 {
-			s = &epservice.PersonName{
-				Firstname: " ",
-				Lastname:  splitReceiverName[0],
-			}
-		} else {
-			s = &epservice.PersonName{
-				Firstname: splitReceiverName[0],
-				Lastname:  splitReceiverName[1],
-			}
-		}
-		if receiverCompany != nil {
-			receiverCompany.PersonName = s
-		} else {
-			receiverPerson = s
-		}
-	}
-
-	// Name processing end
+	senderCompany, receiverCompany, senderPerson, receiverPerson := processNames(stamp)
 
 	cartResponse, err := h.service.CheckoutShoppingCartPDF(&epservice.CheckoutShoppingCartPDFRequest{
 		UserToken:    authResponse.UserToken,
@@ -383,4 +324,66 @@ func (h *Handler) buyAndPrintStamp(stamp *StampData) (int, string, error) {
 	}
 
 	return int(*cartResponse.WalletBallance), link, nil
+}
+
+func processNames(stamp *StampData) (senderCompany, receiverCompany *epservice.CompanyName, senderPerson, receiverPerson *epservice.PersonName) {
+
+	// API demands both given and surname
+
+	splitSenderName := strings.SplitN(stamp.SenderName, " ", 2)
+	splitReceiverName := strings.SplitN(stamp.ReceiverName, " ", 2)
+
+	if stamp.SenderCompany != "" {
+		senderCompany = &epservice.CompanyName{
+			Company: stamp.SenderCompany,
+		}
+	}
+
+	if stamp.SenderName != "" {
+		var s *epservice.PersonName
+		if len(splitSenderName) < 2 {
+			s = &epservice.PersonName{
+				Firstname: " ",
+				Lastname:  splitSenderName[0],
+			}
+		} else {
+			s = &epservice.PersonName{
+				Firstname: splitSenderName[0],
+				Lastname:  splitSenderName[1],
+			}
+		}
+		if senderCompany != nil {
+			senderCompany.PersonName = s
+		} else {
+			senderPerson = s
+		}
+	}
+
+	if stamp.ReceiverCompany != "" {
+		receiverCompany = &epservice.CompanyName{
+			Company: stamp.ReceiverCompany,
+		}
+	}
+	if stamp.ReceiverName != "" {
+		var s *epservice.PersonName
+		if len(splitReceiverName) < 2 {
+			s = &epservice.PersonName{
+				Firstname: " ",
+				Lastname:  splitReceiverName[0],
+			}
+		} else {
+			s = &epservice.PersonName{
+				Firstname: splitReceiverName[0],
+				Lastname:  splitReceiverName[1],
+			}
+		}
+		if receiverCompany != nil {
+			receiverCompany.PersonName = s
+		} else {
+			receiverPerson = s
+		}
+	}
+
+	return
+
 }
