@@ -961,7 +961,7 @@ func (s *SOAPClient) Call(soapAction string, request, response interface{}) erro
 	requestBody := bytes.NewBufferString("<?xml version='1.0' encoding='utf-8'?>")
 	nsReplacer.WriteString(requestBody, buffer.String())
 
-	log.Println("Got here, writing:\n", requestBody.String())
+	//log.Println("Got here, writing:\n", requestBody.String())
 
 	req, err := http.NewRequest("POST", s.url, requestBody)
 	if err != nil {
@@ -994,9 +994,10 @@ func (s *SOAPClient) Call(soapAction string, request, response interface{}) erro
 		log.Println("empty response")
 		return nil
 	}
-	log.Println("Returned")
-
-	log.Println(string(rawbody))
+	
+	//log.Println("Returned")
+	//log.Println(string(rawbody))
+	
 	respEnvelope := new(SOAPEnvelope)
 	respEnvelope.Body = SOAPBody{Content: response}
 	err = xml.Unmarshal(rawbody, respEnvelope)
