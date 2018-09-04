@@ -1,4 +1,4 @@
-# eporto [![goreportcard](https://goreportcard.com/badge/github.com/fabian-z/eporto?update=1)](https://goreportcard.com/report/github.com/fabian-z/eporto)
+# eporto [![Build Status](https://travis-ci.org/fabian-z/eporto.svg?branch=master)](https://travis-ci.org/fabian-z/eporto) [![goreportcard](https://goreportcard.com/badge/github.com/fabian-z/eporto?update=1)](https://goreportcard.com/report/github.com/fabian-z/eporto)
 
 `eporto` is a simple web application allowing you to buy and print digital stamps (Internetmarke) from Deutsche Post.
 
