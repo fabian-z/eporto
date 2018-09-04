@@ -284,8 +284,8 @@ func getProductList(url string) (products []Product, err error) {
 		}
 
 		p.Name = strings.TrimSpace(v[4])
-		p.Name = strings.Replace(p.Name, "Intern.", "", -1)       // Displayed seperately
-		p.Name = strings.Replace(p.Name, "International", "", -1) // Displayed seperately
+		p.Name = strings.Replace(p.Name, "Intern.", "", -1)       // Displayed separately
+		p.Name = strings.Replace(p.Name, "International", "", -1) // Displayed separately
 		p.Name = strings.Replace(p.Name, "Einsch+Eigh", "Einschreiben Eigenhändig", -1)
 
 		var costEuro float64
