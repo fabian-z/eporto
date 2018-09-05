@@ -994,10 +994,10 @@ func (s *SOAPClient) Call(soapAction string, request, response interface{}) erro
 		log.Println("empty response")
 		return nil
 	}
-	
+
 	//log.Println("Returned")
 	//log.Println(string(rawbody))
-	
+
 	respEnvelope := new(SOAPEnvelope)
 	respEnvelope.Body = SOAPBody{Content: response}
 	err = xml.Unmarshal(rawbody, respEnvelope)
