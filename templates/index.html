@@ -92,6 +92,14 @@ input[type="submit"] {
 									field.required = required;
 								}
 							});
+							addEventHandler(document.getElementById('StampForm'), 'reset', function() {
+								document.getElementById('AddressContainer').style.display = 'block';
+								var requiredFields = document.getElementsByClassName("required");
+								for (var i = 0; i < requiredFields.length; i++) {
+									field = requiredFields.item(i);
+									field.required = true;
+								}
+							});
 							{{ end }}
 							
 							
@@ -100,7 +108,7 @@ input[type="submit"] {
 </head>
 <body>
 	
-		<form action="/" method="post">
+		<form id="StampForm" action="/" method="post">
 		{{ if $.SupportAddress }}
 		<label>Mit Adresse frankieren <input id="StampAddressCheckbox" type="checkbox" name="StampAddress" checked></label>
 		<div id="AddressContainer">
