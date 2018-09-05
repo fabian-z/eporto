@@ -23,17 +23,19 @@ const (
 
 //TODO configuration object instead of global state
 var (
-	Listener       string
-	PrinterName    string
-	PageFormat     int
-	PartnerId      string
-	KeyPhase       string
-	SignatureKey   string
-	WalletUser     string
-	WalletPassword string
+	Listener              string
+	PrinterName           string
+	PageFormat            int
+	FormatSupportsAddress bool
+	PartnerId             string
+	KeyPhase              string
+	SignatureKey          string
+	WalletUser            string
+	WalletPassword        string
 )
 
 type StampData struct {
+	StampAddress  bool
 	SenderCompany string
 	SenderName    string
 	SenderStreet  string
@@ -60,6 +62,12 @@ func main() {
 		KeyPhase:  KeyPhase,
 		Key:       SignatureKey,
 	})
+
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	FormatSupportsAddress, err = checkPageFormat(service, PageFormat)
 
 	if err != nil {
 		log.Fatal(err)
@@ -101,15 +109,6 @@ func main() {
 	log.Fatal(http.ListenAndServe(Listener, h))
 	return
 
-	/*pageFormatResponse, err := service.RetrievePageFormats(&epservice.RetrievePageFormatsRequest{})
-
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	for _, v := range pageFormatResponse.PageFormat {
-		log.Printf("%d - %s", *v.Id, v.Name)
-	}*/
 }
 
 func getStampPDFBytes(link string) ([]byte, error) {
@@ -159,10 +158,12 @@ func (h *Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		defer productState.RUnlock()
 
 		data := struct {
-			Products   []Product
-			Countries  []Country
-			WalletUser string
+			SupportAddress bool
+			Products       []Product
+			Countries      []Country
+			WalletUser     string
 		}{
+			FormatSupportsAddress,
 			productState.products,
 			productState.countries,
 			WalletUser,
@@ -186,6 +187,7 @@ func (h *Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 			http.Error(w, "Error parsing form", http.StatusBadRequest)
 			return
 		}
+
 		balance, link, err := h.buyAndPrintStamp(&stampData)
 		if err != nil && len(link) == 0 {
 			http.Error(w, "Error buying stamps: "+err.Error(), http.StatusInternalServerError)
@@ -236,50 +238,60 @@ func (h *Handler) buyAndPrintStamp(stamp *StampData) (int, string, error) {
 		return 0, "", errors.New("Invalid product id")
 	}
 
-	if stamp.ReceiverCountry != "DEU" && !product.International {
+	if stamp.StampAddress && stamp.ReceiverCountry != "DEU" && !product.International {
 		return 0, "", errors.New("Product must be international if receiver is not DEU")
 	}
 
 	var total int32 = int32(product.Cost) //Only support one purchase at a time right now
 	var createManifest bool = false
 
-	senderCompany, receiverCompany, senderPerson, receiverPerson := processNames(stamp)
+	var voucherLayout *epservice.VoucherLayout
+	var addressBinding *epservice.AddressBinding
+
+	if FormatSupportsAddress && stamp.StampAddress {
+		voucherLayout = &epservice.VoucherLayoutAddressZone
+
+		senderCompany, receiverCompany, senderPerson, receiverPerson := processNames(stamp)
+		addressBinding = &epservice.AddressBinding{
+			Sender: &epservice.NamedAddress{
+				Name: &epservice.Name{
+					CompanyName: senderCompany,
+					PersonName:  senderPerson,
+				},
+				Address: &epservice.Address{
+					Street:  stamp.SenderStreet,
+					HouseNo: stamp.SenderHouseNo,
+					Zip:     stamp.SenderZIP,
+					City:    stamp.SenderCity,
+					Country: "DEU",
+				},
+			},
+			Receiver: &epservice.NamedAddress{
+				Name: &epservice.Name{
+					CompanyName: receiverCompany,
+					PersonName:  receiverPerson,
+				},
+				Address: &epservice.Address{
+					Street:  stamp.ReceiverStreet,
+					HouseNo: stamp.ReceiverHouseNo,
+					Zip:     stamp.ReceiverZIP,
+					City:    stamp.ReceiverCity,
+					Country: stamp.ReceiverCountry,
+				},
+			},
+		}
+	} else {
+		voucherLayout = &epservice.VoucherLayoutFrankingZone
+	}
 
 	cartResponse, err := h.service.CheckoutShoppingCartPDF(&epservice.CheckoutShoppingCartPDFRequest{
 		UserToken:    authResponse.UserToken,
 		PageFormatId: (*epservice.PageFormatId)(&pageFormat),
 		Positions: []*epservice.ShoppingCartPDFPosition{{
 			ShoppingCartPosition: &epservice.ShoppingCartPosition{
-				ProductCode: (*epservice.ProductCode)(&productCode),
-				Address: &epservice.AddressBinding{
-					Sender: &epservice.NamedAddress{
-						Name: &epservice.Name{
-							CompanyName: senderCompany,
-							PersonName:  senderPerson,
-						},
-						Address: &epservice.Address{
-							Street:  stamp.SenderStreet,
-							HouseNo: stamp.SenderHouseNo,
-							Zip:     stamp.SenderZIP,
-							City:    stamp.SenderCity,
-							Country: "DEU",
-						},
-					},
-					Receiver: &epservice.NamedAddress{
-						Name: &epservice.Name{
-							CompanyName: receiverCompany,
-							PersonName:  receiverPerson,
-						},
-						Address: &epservice.Address{
-							Street:  stamp.ReceiverStreet,
-							HouseNo: stamp.ReceiverHouseNo,
-							Zip:     stamp.ReceiverZIP,
-							City:    stamp.ReceiverCity,
-							Country: stamp.ReceiverCountry,
-						},
-					},
-				},
-				VoucherLayout: &epservice.VoucherLayoutAddressZone,
+				ProductCode:   (*epservice.ProductCode)(&productCode),
+				Address:       addressBinding,
+				VoucherLayout: voucherLayout,
 			},
 			Position: &epservice.VoucherPosition{
 				Position: &epservice.Position{
@@ -307,6 +319,7 @@ func (h *Handler) buyAndPrintStamp(stamp *StampData) (int, string, error) {
 		return balance, "", err
 	}
 
+	//TODO factor out printing
 	log.Println("Starting print")
 	lprPath, err := exec.LookPath("lpr")
 
@@ -329,7 +342,6 @@ func (h *Handler) buyAndPrintStamp(stamp *StampData) (int, string, error) {
 func processNames(stamp *StampData) (senderCompany, receiverCompany *epservice.CompanyName, senderPerson, receiverPerson *epservice.PersonName) {
 
 	// API demands both given and surname
-
 	splitSenderName := strings.SplitN(stamp.SenderName, " ", 2)
 	splitReceiverName := strings.SplitN(stamp.ReceiverName, " ", 2)
 
@@ -385,5 +397,44 @@ func processNames(stamp *StampData) (senderCompany, receiverCompany *epservice.C
 	}
 
 	return
+
+}
+
+func checkPageFormat(service *epservice.OneClickForAppPortTypeV3, requestedFormat int) (supportsAddress bool, err error) {
+
+	var pageFormatResponse *epservice.RetrievePageFormatsResponse
+
+	pageFormatResponse, err = service.RetrievePageFormats(&epservice.RetrievePageFormatsRequest{})
+
+	if err != nil {
+		return
+	}
+
+	//TODO output page formats on user request
+	/*for _, v := range pageFormatResponse.PageFormat {
+		log.Printf("%d - %s", *v.Id, v.Name)
+	}
+
+	var out []byte
+	out, err = json.MarshalIndent(pageFormatResponse.PageFormat, "", "\t")
+
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	os.Stdout.Write([]byte("\n\n"))
+	os.Stdout.Write(out)
+	os.Stdout.Write([]byte("\n\n"))
+	os.Exit(0)*/
+
+	for _, v := range pageFormatResponse.PageFormat {
+		id := int(*v.Id)
+		if id == requestedFormat {
+			log.Printf("Using page format: %d - %s. Address possible: %v\n", id, v.Name, v.IsAddressPossible)
+			return v.IsAddressPossible, nil
+		}
+	}
+
+	return false, errors.New("Requested page format not found")
 
 }
