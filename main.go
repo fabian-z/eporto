@@ -342,8 +342,8 @@ func (h *Handler) buyAndPrintStamp(stamp *StampData) (int, string, error) {
 func processNames(stamp *StampData) (senderCompany, receiverCompany *epservice.CompanyName, senderPerson, receiverPerson *epservice.PersonName) {
 
 	// API demands both given and surname
-	splitSenderName := strings.SplitN(stamp.SenderName, " ", 2)
-	splitReceiverName := strings.SplitN(stamp.ReceiverName, " ", 2)
+	splitSenderName := strings.SplitN(strings.TrimSpace(stamp.SenderName), " ", 2)
+	splitReceiverName := strings.SplitN(strings.TrimSpace(stamp.ReceiverName), " ", 2)
 
 	if stamp.SenderCompany != "" {
 		senderCompany = &epservice.CompanyName{
