@@ -1,0 +1,108 @@
+7 - Herma 8748 CompactLine 105 x 74
+8 - Herma 4269 PREMIUM 99.1 x 67.7
+9 - Zweckform 3426 Etiketten 105 x 70
+10 - Zweckform J4794 Etiketten 99.1 x 63.5
+11 - Zweckform J8173 Etiketten 99.1 x 57
+13 - Zweckform L7173 Etiketten 99.1 x 57
+14 - Herma 4359 PREMIUM 96.5 x 67.7
+15 - Herma 4280 PREMIUM 96.5 x 67.7
+16 - Brief B6 125 x 176
+17 - Brief C5 162 x 229
+18 - Herma 4470 PREMIUM 105 x 74
+19 - Brief C65 114 x 229
+20 - Herma 4268 PREMIUM 99.1 x 57
+21 - Herma 4626 PREMIUM 105 x 74
+22 - Zweckform 3483 Inkjet+Laser+Kopier-Etiketten
+24 - Zweckform J8165 Etiketten 99.1 x 67.7
+25 - Brother DK-22205 Endlos-Etikett 62mm
+26 - DIN A4 Normalpapier (Einlegeblatt)
+27 - Herma 4676 PREMIUM 105 x 148
+28 - Brief DIN lang 220 x 110
+29 - Brother DK-11202 Versand-Etikett 62 x 100
+31 - Herma 4200 PREMIUM 48,3 x 33,8
+32 - Herma 4390 PREMIUM 70 x 37
+1 - DIN A4 Normalpapier
+4 - Brief C4 229 x 324 (quer)
+12 - Zweckform L7165 Etiketten 99.1 x 67.7
+23 - Zweckform 4782 Etiketten 97 x 67.7
+56 - Brief C4 229 x 324 (hoch)
+68 - Herma 4361 PREMIUM 70 x 42
+80 - Etiketten, 2 Spalten - 5 Reihen
+89 - Herma 8746 CompactLine 210 x 148
+91 - Herma 4667 PREMIUM 96 x 50.8
+102 - Herma 4452 PREMIUM 105 x 42
+112 - Herma 4653 PREMIUM 99.1 x 93.1
+2 - Brief B5 176 x 250
+3 - Brief B4 250 x 353 (quer)
+5 - Brief C6 114 x 162
+6 - Zweckform 3660 Etiketten 97 x 67.7
+42 - Dymo 99012 weiss 89 x 36
+44 - Seiko SLP-STAMP 2 65 x 36
+49 - Zweckform 3652 Etiketten 70 x 42,3
+51 - DIN A4 Normalpapier
+87 - Herma 4426 PREMIUM 105 x 70
+88 - Herma 8690 PREMIUM 148.5 x 205
+90 - Dymo 99014, 101 x 54
+92 - Herma 4669 PREMIUM 96.5 x 42.3
+93 - Herma 4623 PREMIUM 96.5 x 42.3
+176 - Leitz ICON Endlos-Etikett 88 mm
+94 - Zweckform 3425 Etiketten 105 x 57
+95 - Zweckform 3427 Etiketten 105 x 74
+96 - Zweckform L7169 Etiketten 99,1 x 139
+97 - Zweckform 3653 Etiketten 105 x 42.3
+98 - Herma 4281 PREMIUM 105 x 50.8
+99 - Zweckform 3424 Etiketten 105 x 48
+100 - Zweckform J8177 Etiketten 99.1 x 42.3
+101 - Herma 4674 PREMIUM 105 x 42.3
+103 - Herma 4475 PREMIUM 105 x 41
+104 - Herma 4454 PREMIUM 105 x 144 
+52 - Zweckform 3474 Etiketten 70 x 37
+53 - Brief C5 162 x 229
+54 - Brief B5 176 x 250
+55 - Brief B6 125 x 176
+57 - Brief B4 250 x 353 (quer)
+58 - Brief C65 114 x 229
+156 - Leitz ICON Endlos-Etikett 88 mm
+196 - Leitz ICON Endlos-Etikett 61 mm
+59 - Brief DIN Lang 110 x 220
+60 - Brief B4 250 x 353 (hoch)
+61 - Brief C4 229 x 324 (quer)
+62 - Brief C6 114 x 162
+63 - Etiketten, 2 Spalten - 5 Reihen
+64 - Etiketten, 2 Spalten - 4 Reihen
+65 - Etiketten, 2 Spalten - 6 Reihen
+66 - Brother DK-11208 90 x 38
+216 - Brother DK-22225 Endlos-Etikett 38mm
+67 - Leitz ICON Endlos-Etikett 39 mm 
+69 - Zweckform L7160 Etiketten 63,5 x 38,1
+70 - Herma 5053 PREMIUM 66 x 33,8
+71 - Zweckform 3481 Etiketten 70 x 41
+72 - Zweckform 3422 Etiketten 70 x 35
+73 - Herma 5054 PREMIUM 70 x 42,3
+74 - Herma 4473 PREMIUM 70 x 41
+76 - Brother DK-22212 Endlos-Etikett 62mm
+77 - Seiko SLP-SRL 54 x 101 
+78 - Herma 8747 CompactLine 105 x 148
+79 - Etiketten, 2 Spalten - 4 Reihen
+81 - Brother DK-22243 Endlos-Etikett 102mm
+82 - Herma 4250 PREMIUM 99.1 x 139
+83 - Brief B4 250 x 353 (hoch)
+84 - Zweckform 3477 Etiketten 105 x 41
+85 - Brief C4 229 x 324 (hoch)
+86 - Herma 4457 PREMIUM 105 x 48
+33 - Zweckform 3490 Etiketten 70 x 36
+35 - DIN A4 Normalpapier
+136 - Herma 4628 PREMIUM 210 x 148
+37 - Brother DK-22205 Endlos-Etikett 62mm
+39 - Herma 4360 PREMIUM 70 x 36
+40 - Herma 8751 CompactLine 70 x 37
+41 - Seiko SLP-STAMP 1 42 x 36
+105 - Zweckform 4781 Etiketten 97 x 42.3
+106 - Zweckform J4722 Etiketten 96 x 50.8
+107 - Etiketten, 2 Spalten - 6 Reihen
+108 - Zweckform 3659 Etiketten 97 x 42.3
+109 - Herma 4625 PREMIUM 105 x 42.3
+113 - Herma 10017 SPECIAL Etiketten 99.1 x 42.3
+114 - Herma 4472 PREMIUM 78.7 x 139.7
+115 - Dymo 99013 transparent 89 x 36
+116 - Herma 4425 PREMIUM 105 x 57

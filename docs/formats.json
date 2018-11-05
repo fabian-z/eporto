@@ -1,0 +1,3566 @@
+[
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 7,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Herma 8748 CompactLine 105 x 74",
+		"Description": "Herma 8748 CompactLine 105 x 74",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 148,
+				"Y": 210
+			},
+			"Orientation": "LANDSCAPE",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 0,
+				"Bottom": 0,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 8,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Herma 4269 PREMIUM 99.1 x 67.7",
+		"Description": "Herma 4269 PREMIUM 99.1 x 67.7",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 13,
+				"Bottom": 13,
+				"Left": 3,
+				"Right": 3
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 9,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Zweckform 3426 Etiketten 105 x 70",
+		"Description": "",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 8,
+				"Bottom": 8,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 10,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Zweckform J4794 Etiketten 99.1 x 63.5",
+		"Description": "",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 1,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 21,
+				"Bottom": 21,
+				"Left": 5,
+				"Right": 5
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 11,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Zweckform J8173 Etiketten 99.1 x 57",
+		"Description": "",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 3,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 6,
+				"Bottom": 6,
+				"Left": 3,
+				"Right": 3
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 13,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Zweckform L7173 Etiketten 99.1 x 57",
+		"Description": "",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 3,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 6,
+				"Bottom": 6,
+				"Left": 3,
+				"Right": 3
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 14,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Herma 4359 PREMIUM 96.5 x 67.7",
+		"Description": "Herma 4359 PREMIUM 96.5 x 67.7",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 13,
+				"Bottom": 13,
+				"Left": 8,
+				"Right": 8
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 15,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Herma 4280 PREMIUM 96.5 x 67.7",
+		"Description": "Herma 4280 PREMIUM 96.5 x 67.7",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 13,
+				"Bottom": 13,
+				"Left": 8,
+				"Right": 8
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 16,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Brief B6 125 x 176",
+		"Description": "",
+		"PageType": "ENVELOPE",
+		"PageLayout": {
+			"Size": {
+				"X": 176,
+				"Y": 125
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 50,
+				"Bottom": 20,
+				"Left": 66,
+				"Right": 20
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 17,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Brief C5 162 x 229",
+		"Description": "",
+		"PageType": "ENVELOPE",
+		"PageLayout": {
+			"Size": {
+				"X": 229,
+				"Y": 162
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 87,
+				"Bottom": 20,
+				"Left": 119,
+				"Right": 20
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 18,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Herma 4470 PREMIUM 105 x 74",
+		"Description": "Herma 4470 PREMIUM 105 x 74",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 0,
+				"Bottom": 0,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 19,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Brief C65 114 x 229",
+		"Description": "",
+		"PageType": "ENVELOPE",
+		"PageLayout": {
+			"Size": {
+				"X": 229,
+				"Y": 114
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 39,
+				"Bottom": 20,
+				"Left": 119,
+				"Right": 20
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 20,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Herma 4268 PREMIUM 99.1 x 57",
+		"Description": "Herma 4268 PREMIUM 99.1 x 57",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 7
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 11,
+				"Bottom": 6,
+				"Left": 3,
+				"Right": 3
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 21,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Herma 4626 PREMIUM 105 x 74",
+		"Description": "Herma 4626 PREMIUM 105 x 74",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 0,
+				"Bottom": 0,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 22,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Zweckform 3483 Inkjet+Laser+Kopier-Etiketten",
+		"Description": "",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "LANDSCAPE",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 0,
+				"Bottom": 0,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 24,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Zweckform J8165 Etiketten 99.1 x 67.7",
+		"Description": "",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 3,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 13,
+				"Bottom": 6,
+				"Left": 3,
+				"Right": 3
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 25,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Brother DK-22205 Endlos-Etikett 62mm",
+		"Description": "",
+		"PageType": "LABELPRINTER",
+		"PageLayout": {
+			"Size": {
+				"X": 62,
+				"Y": 100
+			},
+			"Orientation": "LANDSCAPE",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 5,
+				"Bottom": 5,
+				"Left": 3,
+				"Right": 3
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 26,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "DIN A4 Normalpapier (Einlegeblatt)",
+		"Description": "",
+		"PageType": "REGULARPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 42,
+				"Bottom": 200,
+				"Left": 20,
+				"Right": 100
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 27,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Herma 4676 PREMIUM 105 x 148",
+		"Description": "Herma 4676 PREMIUM 105 x 148",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 297,
+				"Y": 210
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 0,
+				"Bottom": 0,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 28,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Brief DIN lang 220 x 110",
+		"Description": "",
+		"PageType": "ENVELOPE",
+		"PageLayout": {
+			"Size": {
+				"X": 220,
+				"Y": 110
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 35,
+				"Bottom": 20,
+				"Left": 110,
+				"Right": 20
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 29,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Brother DK-11202 Versand-Etikett 62 x 100",
+		"Description": "",
+		"PageType": "LABELPRINTER",
+		"PageLayout": {
+			"Size": {
+				"X": 62,
+				"Y": 100
+			},
+			"Orientation": "LANDSCAPE",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 5,
+				"Bottom": 5,
+				"Left": 3,
+				"Right": 3
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 31,
+		"IsAddressPossible": false,
+		"IsImagePossible": false,
+		"Name": "Herma 4200 PREMIUM 48,3 x 33,8",
+		"Description": "Herma 4200 PREMIUM 48,3 x 33,8",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 18,
+				"Bottom": 8,
+				"Left": 8,
+				"Right": 8
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 32,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Herma 4390 PREMIUM 70 x 37",
+		"Description": "Herma 4390 PREMIUM 70 x 37",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 3
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 3,
+				"Bottom": 0,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 1,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "DIN A4 Normalpapier",
+		"Description": "",
+		"PageType": "REGULARPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 31,
+				"Bottom": 31,
+				"Left": 15,
+				"Right": 15
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 4,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Brief C4 229 x 324 (quer)",
+		"Description": "Brief C4 229 x 324 (quer)",
+		"PageType": "ENVELOPE",
+		"PageLayout": {
+			"Size": {
+				"X": 324,
+				"Y": 229
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 160,
+				"Bottom": 30,
+				"Left": 190,
+				"Right": 30
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 12,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Zweckform L7165 Etiketten 99.1 x 67.7",
+		"Description": "",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 3,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 13,
+				"Bottom": 13,
+				"Left": 3,
+				"Right": 3
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 23,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Zweckform 4782 Etiketten 97 x 67.7",
+		"Description": "",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 13,
+				"Bottom": 13,
+				"Left": 8,
+				"Right": 8
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 56,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Brief C4 229 x 324 (hoch)",
+		"Description": "",
+		"PageType": "ENVELOPE",
+		"PageLayout": {
+			"Size": {
+				"X": 229,
+				"Y": 324
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 6,
+				"Bottom": 254,
+				"Left": 129,
+				"Right": 10
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 68,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Herma 4361 PREMIUM 70 x 42",
+		"Description": "Herma 4361 PREMIUM 70 x 42",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 207,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 5,
+				"Bottom": 3,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 80,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Etiketten, 2 Spalten - 5 Reihen",
+		"Description": "",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 7,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 15,
+				"Bottom": 0,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 89,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Herma 8746 CompactLine 210 x 148",
+		"Description": "Herma 8746 CompactLine 210 x 148",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 148
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 70,
+				"Bottom": 0,
+				"Left": 100,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 91,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Herma 4667 PREMIUM 96 x 50.8",
+		"Description": "Herma 4667 PREMIUM 96 x 50.8",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 25,
+				"Bottom": 20,
+				"Left": 5,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 102,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Herma 4452 PREMIUM 105 x 42",
+		"Description": "Herma 4452 PREMIUM 105 x 42",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 5,
+				"Bottom": 2,
+				"Left": 5,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 112,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Herma 4653 PREMIUM 99.1 x 93.1",
+		"Description": "Herma 4653 PREMIUM 99.1 x 93.1",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 10,
+				"Bottom": 10,
+				"Left": 7,
+				"Right": 7
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 2,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Brief B5 176 x 250",
+		"Description": "",
+		"PageType": "ENVELOPE",
+		"PageLayout": {
+			"Size": {
+				"X": 250,
+				"Y": 176
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 101,
+				"Bottom": 20,
+				"Left": 140,
+				"Right": 20
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 3,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Brief B4 250 x 353 (quer)",
+		"Description": "Brief B4 250 x 353 (quer)",
+		"PageType": "ENVELOPE",
+		"PageLayout": {
+			"Size": {
+				"X": 353,
+				"Y": 250
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 175,
+				"Bottom": 20,
+				"Left": 243,
+				"Right": 20
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 5,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Brief C6 114 x 162",
+		"Description": "",
+		"PageType": "ENVELOPE",
+		"PageLayout": {
+			"Size": {
+				"X": 162,
+				"Y": 114
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 39,
+				"Bottom": 20,
+				"Left": 52,
+				"Right": 20
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 6,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Zweckform 3660 Etiketten 97 x 67.7",
+		"Description": "",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 13,
+				"Bottom": 13,
+				"Left": 8,
+				"Right": 8
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 42,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Dymo 99012 weiss 89 x 36",
+		"Description": "",
+		"PageType": "LABELPRINTER",
+		"PageLayout": {
+			"Size": {
+				"X": 89,
+				"Y": 36
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 6,
+				"Bottom": 2,
+				"Left": 10,
+				"Right": 10
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 44,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Seiko SLP-STAMP 2 65 x 36",
+		"Description": "Seiko SLP-STAMP 2 65 x 36",
+		"PageType": "LABELPRINTER",
+		"PageLayout": {
+			"Size": {
+				"X": 36,
+				"Y": 65
+			},
+			"Orientation": "LANDSCAPE",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 9,
+				"Bottom": 9,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 49,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Zweckform 3652 Etiketten 70 x 42,3",
+		"Description": "Zweckform 3652 Etiketten 70 x 42,3",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 5
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 0,
+				"Bottom": 0,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 51,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "DIN A4 Normalpapier",
+		"Description": "",
+		"PageType": "REGULARPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 16,
+				"Bottom": 16,
+				"Left": 7,
+				"Right": 7
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 87,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Herma 4426 PREMIUM 105 x 70",
+		"Description": "Herma 4426 PREMIUM 105 x 70",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 8,
+				"Bottom": 8,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 88,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Herma 8690 PREMIUM 148.5 x 205",
+		"Description": "Herma 8690 PREMIUM 148.5 x 205",
+		"PageType": "LABELPRINTER",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 148
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 70,
+				"Bottom": 0,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 90,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Dymo 99014, 101 x 54",
+		"Description": "Dymo 99014, 101 x 54",
+		"PageType": "LABELPRINTER",
+		"PageLayout": {
+			"Size": {
+				"X": 54,
+				"Y": 101
+			},
+			"Orientation": "LANDSCAPE",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 5,
+				"Bottom": 5,
+				"Left": 3,
+				"Right": 3
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 92,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Herma 4669 PREMIUM 96.5 x 42.3",
+		"Description": "Herma 4669 PREMIUM 96.5 x 42.3",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 22,
+				"Bottom": 20,
+				"Left": 5,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 93,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Herma 4623 PREMIUM 96.5 x 42.3",
+		"Description": "Herma 4623 PREMIUM 96.5 x 42.3",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 22,
+				"Bottom": 20,
+				"Left": 5,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 176,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Leitz ICON Endlos-Etikett 88 mm",
+		"Description": "Leitz ICON Endlos-Etikett 88 mm",
+		"PageType": "LABELPRINTER",
+		"PageLayout": {
+			"Size": {
+				"X": 88,
+				"Y": 48
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 5,
+				"Bottom": 2,
+				"Left": 8,
+				"Right": 4
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 94,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Zweckform 3425 Etiketten 105 x 57",
+		"Description": "",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 7,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 11,
+				"Bottom": 6,
+				"Left": 4,
+				"Right": 4
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 95,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Zweckform 3427 Etiketten 105 x 74",
+		"Description": "",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 8,
+				"Bottom": 8,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 96,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Zweckform L7169 Etiketten 99,1 x 139",
+		"Description": "",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 297,
+				"Y": 210
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 0,
+				"Bottom": 0,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 97,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Zweckform 3653 Etiketten 105 x 42.3",
+		"Description": "Zweckform 3653 Etiketten 105 x 42.3",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 4,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 6,
+				"Bottom": 2,
+				"Left": 5,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 98,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Herma 4281 PREMIUM 105 x 50.8",
+		"Description": "Herma 4281 PREMIUM 105 x 50.8",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 25,
+				"Bottom": 25,
+				"Left": 5,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 99,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Zweckform 3424 Etiketten 105 x 48",
+		"Description": "Zweckform 3424 Etiketten 105 x 48",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 6
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 4,
+				"Bottom": 4,
+				"Left": 1,
+				"Right": 1
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 100,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Zweckform J8177 Etiketten 99.1 x 42.3",
+		"Description": "",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 22,
+				"Bottom": 20,
+				"Left": 5,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 101,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Herma 4674 PREMIUM 105 x 42.3",
+		"Description": "Herma 4674 PREMIUM 105 x 42.3",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 303
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 4,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 6,
+				"Bottom": 3,
+				"Left": 5,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 103,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Herma 4475 PREMIUM 105 x 41",
+		"Description": "Herma 4475 PREMIUM 105 x 41",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 6,
+				"Bottom": 3,
+				"Left": 5,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 104,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Herma 4454 PREMIUM 105 x 144 ",
+		"Description": "Herma 4454 PREMIUM 105 x 144 ",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 297,
+				"Y": 210
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 0,
+				"Bottom": 0,
+				"Left": 5,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 52,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Zweckform 3474 Etiketten 70 x 37",
+		"Description": "Zweckform 3474 Etiketten 70 x 37",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 2
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 2,
+				"Bottom": 0,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 53,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Brief C5 162 x 229",
+		"Description": "",
+		"PageType": "ENVELOPE",
+		"PageLayout": {
+			"Size": {
+				"X": 229,
+				"Y": 162
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 5,
+				"Bottom": 122,
+				"Left": 159,
+				"Right": 10
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 54,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Brief B5 176 x 250",
+		"Description": "",
+		"PageType": "ENVELOPE",
+		"PageLayout": {
+			"Size": {
+				"X": 250,
+				"Y": 176
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 5,
+				"Bottom": 136,
+				"Left": 180,
+				"Right": 10
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 55,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Brief B6 125 x 176",
+		"Description": "",
+		"PageType": "ENVELOPE",
+		"PageLayout": {
+			"Size": {
+				"X": 176,
+				"Y": 125
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 5,
+				"Bottom": 85,
+				"Left": 106,
+				"Right": 10
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 57,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Brief B4 250 x 353 (quer)",
+		"Description": "",
+		"PageType": "ENVELOPE",
+		"PageLayout": {
+			"Size": {
+				"X": 353,
+				"Y": 250
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 5,
+				"Bottom": 210,
+				"Left": 283,
+				"Right": 10
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 58,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Brief C65 114 x 229",
+		"Description": "",
+		"PageType": "ENVELOPE",
+		"PageLayout": {
+			"Size": {
+				"X": 229,
+				"Y": 114
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 5,
+				"Bottom": 74,
+				"Left": 159,
+				"Right": 10
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 156,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Leitz ICON Endlos-Etikett 88 mm",
+		"Description": "Leitz ICON Endlos-Etikett 88 mm",
+		"PageType": "LABELPRINTER",
+		"PageLayout": {
+			"Size": {
+				"X": 88,
+				"Y": 30
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 6,
+				"Bottom": 2,
+				"Left": 28,
+				"Right": 10
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 196,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Leitz ICON Endlos-Etikett 61 mm",
+		"Description": "Leitz ICON Endlos-Etikett 61 mm",
+		"PageType": "LABELPRINTER",
+		"PageLayout": {
+			"Size": {
+				"X": 61,
+				"Y": 48
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 0,
+				"Bottom": 0,
+				"Left": 2,
+				"Right": 2
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 59,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Brief DIN Lang 110 x 220",
+		"Description": "",
+		"PageType": "ENVELOPE",
+		"PageLayout": {
+			"Size": {
+				"X": 220,
+				"Y": 110
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 5,
+				"Bottom": 70,
+				"Left": 150,
+				"Right": 10
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 60,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Brief B4 250 x 353 (hoch)",
+		"Description": "",
+		"PageType": "ENVELOPE",
+		"PageLayout": {
+			"Size": {
+				"X": 250,
+				"Y": 353
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 5,
+				"Bottom": 313,
+				"Left": 180,
+				"Right": 10
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 61,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Brief C4 229 x 324 (quer)",
+		"Description": "",
+		"PageType": "ENVELOPE",
+		"PageLayout": {
+			"Size": {
+				"X": 324,
+				"Y": 229
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 5,
+				"Bottom": 189,
+				"Left": 254,
+				"Right": 10
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 62,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Brief C6 114 x 162",
+		"Description": "",
+		"PageType": "ENVELOPE",
+		"PageLayout": {
+			"Size": {
+				"X": 162,
+				"Y": 114
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 5,
+				"Bottom": 74,
+				"Left": 92,
+				"Right": 10
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 63,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Etiketten, 2 Spalten - 5 Reihen",
+		"Description": "Etiketten, 2 Spalten - 5 Reihen",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 40,
+				"Y": 40
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 15,
+				"Bottom": 15,
+				"Left": 35,
+				"Right": 20
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 64,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Etiketten, 2 Spalten - 4 Reihen",
+		"Description": "Etiketten, 2 Spalten - 4 Reihen",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 45,
+				"Y": 40
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 20,
+				"Bottom": 30,
+				"Left": 35,
+				"Right": 20
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 65,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Etiketten, 2 Spalten - 6 Reihen",
+		"Description": "Etiketten, 2 Spalten - 6 Reihen",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 40,
+				"Y": 40
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 12,
+				"Bottom": 12,
+				"Left": 35,
+				"Right": 20
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 66,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Brother DK-11208 90 x 38",
+		"Description": "",
+		"PageType": "LABELPRINTER",
+		"PageLayout": {
+			"Size": {
+				"X": 90,
+				"Y": 38
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 2,
+				"Bottom": 2,
+				"Left": 10,
+				"Right": 10
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 216,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Brother DK-22225 Endlos-Etikett 38mm",
+		"Description": "Brother DK-22225 Endlos-Etikett 38mm",
+		"PageType": "LABELPRINTER",
+		"PageLayout": {
+			"Size": {
+				"X": 66,
+				"Y": 38
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 2,
+				"Bottom": 2,
+				"Left": 2,
+				"Right": 2
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 67,
+		"IsAddressPossible": false,
+		"IsImagePossible": false,
+		"Name": "Leitz ICON Endlos-Etikett 39 mm ",
+		"Description": "Leitz ICON Endlos-Etikett 39 mm ",
+		"PageType": "LABELPRINTER",
+		"PageLayout": {
+			"Size": {
+				"X": 39,
+				"Y": 34
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 1,
+				"Bottom": 1,
+				"Left": 1,
+				"Right": 1
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 69,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Zweckform L7160 Etiketten 63,5 x 38,1",
+		"Description": "",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 209,
+				"Y": 296
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 2,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 17,
+				"Bottom": 13,
+				"Left": 6,
+				"Right": 6
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 70,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Herma 5053 PREMIUM 66 x 33,8",
+		"Description": "Herma 5053 PREMIUM 66 x 33,8",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 2
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 15,
+				"Bottom": 11,
+				"Left": 6,
+				"Right": 6
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 71,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Zweckform 3481 Etiketten 70 x 41",
+		"Description": "",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 205,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 6,
+				"Bottom": 2,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 72,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Zweckform 3422 Etiketten 70 x 35",
+		"Description": "Zweckform 3422 Etiketten 70 x 35",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 6
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 13,
+				"Bottom": 4,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 73,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Herma 5054 PREMIUM 70 x 42,3",
+		"Description": "Herma 5054 PREMIUM 70 x 42,3",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 207,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 4,
+				"Bottom": 4,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 74,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Herma 4473 PREMIUM 70 x 41",
+		"Description": "Herma 4473 PREMIUM 70 x 41",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 207,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 5,
+				"Bottom": 5,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 76,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Brother DK-22212 Endlos-Etikett 62mm",
+		"Description": "",
+		"PageType": "LABELPRINTER",
+		"PageLayout": {
+			"Size": {
+				"X": 62,
+				"Y": 100
+			},
+			"Orientation": "LANDSCAPE",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 5,
+				"Bottom": 5,
+				"Left": 3,
+				"Right": 3
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 77,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Seiko SLP-SRL 54 x 101 ",
+		"Description": "",
+		"PageType": "LABELPRINTER",
+		"PageLayout": {
+			"Size": {
+				"X": 62,
+				"Y": 100
+			},
+			"Orientation": "LANDSCAPE",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 5,
+				"Bottom": 5,
+				"Left": 3,
+				"Right": 3
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 78,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Herma 8747 CompactLine 105 x 148",
+		"Description": "Herma 8747 CompactLine 105 x 148",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 148,
+				"Y": 210
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 0,
+				"Bottom": 0,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 79,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Etiketten, 2 Spalten - 4 Reihen",
+		"Description": "",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 15,
+				"Bottom": 15,
+				"Left": 7,
+				"Right": 7
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 81,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Brother DK-22243 Endlos-Etikett 102mm",
+		"Description": "",
+		"PageType": "LABELPRINTER",
+		"PageLayout": {
+			"Size": {
+				"X": 70,
+				"Y": 100
+			},
+			"Orientation": "LANDSCAPE",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 0,
+				"Bottom": 0,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 82,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Herma 4250 PREMIUM 99.1 x 139",
+		"Description": "Herma 4250 PREMIUM 99.1 x 139",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "LANDSCAPE",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 10,
+				"Bottom": 10,
+				"Left": 7,
+				"Right": 7
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 83,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Brief B4 250 x 353 (hoch)",
+		"Description": "",
+		"PageType": "ENVELOPE",
+		"PageLayout": {
+			"Size": {
+				"X": 250,
+				"Y": 353
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 50,
+				"Bottom": 231,
+				"Left": 45,
+				"Right": 151
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 84,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Zweckform 3477 Etiketten 105 x 41",
+		"Description": "Zweckform 3477 Etiketten 105 x 41",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 6,
+				"Bottom": 3,
+				"Left": 5,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 85,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Brief C4 229 x 324 (hoch)",
+		"Description": "",
+		"PageType": "ENVELOPE",
+		"PageLayout": {
+			"Size": {
+				"X": 229,
+				"Y": 324
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 50,
+				"Bottom": 210,
+				"Left": 30,
+				"Right": 109
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 86,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Herma 4457 PREMIUM 105 x 48",
+		"Description": "Herma 4457 PREMIUM 105 x 48",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 4
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 4,
+				"Bottom": 3,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 33,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Zweckform 3490 Etiketten 70 x 36",
+		"Description": "Zweckform 3490 Etiketten 70 x 36",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 205,
+				"Y": 296
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 3
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 5,
+				"Bottom": 2,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 35,
+		"IsAddressPossible": false,
+		"IsImagePossible": false,
+		"Name": "DIN A4 Normalpapier",
+		"Description": "",
+		"PageType": "REGULARPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 16,
+				"Bottom": 16,
+				"Left": 25,
+				"Right": 25
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 136,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Herma 4628 PREMIUM 210 x 148",
+		"Description": "Herma 4628 PREMIUM 210 x 148",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 40
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 70,
+				"Bottom": 0,
+				"Left": 100,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 37,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Brother DK-22205 Endlos-Etikett 62mm",
+		"Description": "",
+		"PageType": "LABELPRINTER",
+		"PageLayout": {
+			"Size": {
+				"X": 61,
+				"Y": 37
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 2,
+				"Bottom": 2,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 39,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Herma 4360 PREMIUM 70 x 36",
+		"Description": "Herma 4360 PREMIUM 70 x 36",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 6,
+				"Bottom": 2,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 40,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Herma 8751 CompactLine 70 x 37",
+		"Description": "Herma 8751 CompactLine 70 x 37",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 147
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 0,
+				"Bottom": 0,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 41,
+		"IsAddressPossible": false,
+		"IsImagePossible": false,
+		"Name": "Seiko SLP-STAMP 1 42 x 36",
+		"Description": "",
+		"PageType": "LABELPRINTER",
+		"PageLayout": {
+			"Size": {
+				"X": 35,
+				"Y": 42
+			},
+			"Orientation": "LANDSCAPE",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 0,
+				"Bottom": 0,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 105,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Zweckform 4781 Etiketten 97 x 42.3",
+		"Description": "Zweckform 4781 Etiketten 97 x 42.3",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 7
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 25,
+				"Bottom": 20,
+				"Left": 5,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 106,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Zweckform J4722 Etiketten 96 x 50.8",
+		"Description": "",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 25,
+				"Bottom": 20,
+				"Left": 5,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 107,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Etiketten, 2 Spalten - 6 Reihen",
+		"Description": "",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 9,
+				"Bottom": 0,
+				"Left": 5,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 108,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Zweckform 3659 Etiketten 97 x 42.3",
+		"Description": "Zweckform 3659 Etiketten 97 x 42.3",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 2
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 22,
+				"Bottom": 18,
+				"Left": 5,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 109,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Herma 4625 PREMIUM 105 x 42.3",
+		"Description": "Herma 4625 PREMIUM 105 x 42.3",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 303
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 4,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 6,
+				"Bottom": 3,
+				"Left": 5,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 113,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Herma 10017 SPECIAL Etiketten 99.1 x 42.3",
+		"Description": "Herma 10017 SPECIAL Etiketten 99.1 x 42.3",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 22,
+				"Bottom": 20,
+				"Left": 5,
+				"Right": 0
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 114,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Herma 4472 PREMIUM 78.7 x 139.7",
+		"Description": "Herma 4472 PREMIUM 78.7 x 139.7",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "LANDSCAPE",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 13,
+				"Bottom": 13,
+				"Left": 19,
+				"Right": 13
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 115,
+		"IsAddressPossible": false,
+		"IsImagePossible": true,
+		"Name": "Dymo 99013 transparent 89 x 36",
+		"Description": "",
+		"PageType": "LABELPRINTER",
+		"PageLayout": {
+			"Size": {
+				"X": 89,
+				"Y": 36
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 0,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 6,
+				"Bottom": 2,
+				"Left": 10,
+				"Right": 10
+			}
+		}
+	},
+	{
+		"XMLName": {
+			"Space": "http://oneclickforapp.dpag.de/V3",
+			"Local": "pageFormat"
+		},
+		"Id": 116,
+		"IsAddressPossible": true,
+		"IsImagePossible": false,
+		"Name": "Herma 4425 PREMIUM 105 x 57",
+		"Description": "Herma 4425 PREMIUM 105 x 57",
+		"PageType": "LABELPAGE",
+		"PageLayout": {
+			"Size": {
+				"X": 210,
+				"Y": 297
+			},
+			"Orientation": "PORTRAIT",
+			"LabelSpacing": {
+				"X": 7,
+				"Y": 0
+			},
+			"LabelCount": {
+				"LabelX": 0,
+				"LabelY": 0
+			},
+			"Margin": {
+				"Top": 11,
+				"Bottom": 6,
+				"Left": 0,
+				"Right": 0
+			}
+		}
+	}
+]
