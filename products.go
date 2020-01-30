@@ -133,7 +133,7 @@ func updateProductState() {
 func init() {
 	updateProductState()
 	c := cron.New()
-	err := c.AddFunc("@daily", updateProductState)
+	_, err := c.AddFunc("@daily", updateProductState)
 	if err != nil {
 		log.Fatal(err)
 	}
