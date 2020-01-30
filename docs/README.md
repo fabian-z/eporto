@@ -10,7 +10,7 @@ https://internetmarke.deutschepost.de/OneClickForAppV3?wsdl
 
 
 ## CSV product information
-http://www.deutschepost.de/content/dam/mlm.nf/dpag/technische_downloads/update_internetmarke/ppl_update.xml 
+https://www.deutschepost.de/content/dam/dpag/images/i_i/Internetmarke/technische_downloads/update_internetmarke/ppl_update.xml
 
 
 ## Personal contact

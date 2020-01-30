@@ -18,7 +18,7 @@ import (
 )
 
 const (
-	pplUpdateURL = "https://www.deutschepost.de/content/dam/mlm.nf/dpag/technische_downloads/update_internetmarke/ppl_update.xml"
+	pplUpdateURL = "https://www.deutschepost.de/content/dam/dpag/images/i_i/Internetmarke/technische_downloads/update_internetmarke/ppl_update.xml"
 )
 
 var productState *ProductsState
